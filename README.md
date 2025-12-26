@@ -31,6 +31,6 @@ This project presents the full-custom design of a CMOS inverter, including schem
 The transient analysis was performed using HSPICE. Measurements include propagation delays at the 0.6V threshold and Energy-Delay Product (EDP) calculations to evaluate power efficiency.
 
 ---
-**Authors:** Ganesh Manjunath & Aryan Verma  
+**Authors:**  Aryan Verma  
 **Course:** EECT / CE 6325 – VLSI Design  
 **Instructor:** Prof. Carl Sechen
