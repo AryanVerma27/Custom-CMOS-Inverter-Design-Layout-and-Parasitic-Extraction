@@ -1,0 +1,37 @@
+### WaveView ADV log file, revision W-2024.09-SP1-1 (build Dec 11, ) ###
+### created at 10:58:11 on Wed Nov  5 2025 (Linux AMD64) ###
+### Host Name: engnx04a.utdallas.edu   User ID: dal820508   PID: 4176484   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_select_window {WaveView} 
+wv_move_window {WaveView} {} 0 27
+wv_press_tool_button {WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_list_item {FileDialog} {} {FileList} {inv_setup.tr0} 11
+wv_press_button {FileDialog} {} {Ok} 
+wv_expand_tree_item {WaveView} {} {hierview} {D0:inv_setup.tr0(0)} {+sep=@}
+wv_select_tree_item {WaveView} {} {hierview} {D0:inv_setup.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {WaveView} {} {sigview} {v(a1)} 3
+wv_dclick_list_item {WaveView} {} {sigview} {v(a1)} 3
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 5
+wv_dclick_list_item {WaveView} {} {sigview} {v(out)} 5
+wv_select_list_item {WaveView} {} {sigview} {v(inv)} 4
+wv_dclick_list_item {WaveView} {} {sigview} {v(inv)} 4
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL2:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {WaveView} {waveview 1:1} {PanelPopMenu.Delete} 
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 9.52577e-10 1.1683
+wv_select_panel WV1.PANEL1:1 9.52577e-10 1.1683 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 9.89691e-10 1.11845
+wv_select_panel WV1.PANEL2:1 9.89691e-10 1.11845 btnup
+wv_close_window {WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
